@@ -31,7 +31,7 @@ $ heroku login
 ```
 Clone the repository
 ```
-$ heroku git:clone -a lwsu-linebot
+$ heroku git:clone -a linebot
 $ cd linebot
 ```
 Deploy your changes
