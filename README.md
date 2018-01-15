@@ -16,7 +16,12 @@
 
 - Creat new app [Developer kkbox]( https://developer.kkbox.com/)
 - 取得 Client id and Client secret
-   
+- 獲取 access token
+```
+curl -u "client_id:client_secret" --data-urlencode "grant_type=client_credentials" https://account.kkbox.com/oauth2/token
+```
+- 取得token後，即可從KKBOX API取得資料
+
 <img src="https://i.imgur.com/FrCJRqul.jpg" width="50%">
 
 ### 3. 部屬環境
