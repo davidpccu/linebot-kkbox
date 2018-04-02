@@ -1,6 +1,8 @@
 # Line Chatbot
 使用 Node.js 建立 Line機器人呼叫 KKBOX open API
 
+<img src="http://3.bp.blogspot.com/-295rywbAhZI/UNQPmjLvffI/AAAAAAAAA7c/MBtZns8JDpY/s400/kkbox-logo-taiwan-b@2x.png" width="40%">
+
 ## Todolist
 
 + A little side project
@@ -17,12 +19,19 @@
 - Creat new app [Developer kkbox]( https://developer.kkbox.com/)
 - 取得 Client id and Client secret
 - 獲取 access token
+<img src="https://i.imgur.com/FrCJRqul.jpg" width="60%">
+
+這裡我使用Git Shell來取得token
+
 ```
 curl -u "client_id:client_secret" --data-urlencode "grant_type=client_credentials" https://account.kkbox.com/oauth2/token
+
 ```
+<img src="https://i.imgur.com/OxlMcqn.jpg" width="70%">
+
 - 取得token後，即可從KKBOX API取得資料
 
-<img src="https://i.imgur.com/FrCJRqul.jpg" width="50%">
+
 
 ### 3. 部屬環境
 
