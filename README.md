@@ -142,3 +142,7 @@ req.end();
 + Title Max: 40 characters
 + Message text Max: 120 characters (no image or title) Max: 60 characters (message with an image or title)
 + Action when tapped Max: 3
+
+**My Line Chatbot ID**
+
+<a href="https://line.me/R/ti/p/%40ipb9102j"><img height="36" border="0" alt="加入好友" src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png"></a>
